@@ -1,0 +1,63 @@
+Script 1 
+var n = Math.random();
+n = n*6;
+n = Math.floor(n)+1;
+console.log(n);
+---------------------------------------------------------------------
+Script 2
+prompt("What is you name?");
+prompt("What is their name?");
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore)+1;
+
+if(loveScore > 70){
+    alert("Your love score is " + loveScore+" % " + " You love each other is Karina Rocket Puncher");
+}else{
+    alert("Your love score is " + loveScore+"%");
+}
+-----------------------------------------------------------------------
+Script 3
+var h = prompt("What is the height volume?");
+var r = prompt("What is the radius?");
+
+var cylindrical = 3.14*(r*r)*h;
+
+console.log("Your cylindrical is " + cylindrical);
+---------------------------------------------------------------------
+Script 4
+var guestlist = ["Angela","Jack","Pam","James","Lara","Jason"];
+
+var guestName = prompt("What is your name?");
+
+if(guestlist.includes(guestName)){
+    alert("Welcome!");
+} else {
+    alert("Sorry , you are GAYYYYYYYYYYY");
+}
+------------------------------------------------------------------------
+Script 5
+var output =[];
+var count = 1;
+
+function fizzBuzz(){
+    if(count % 3 ===0){
+        output.push("Fizz");
+    }else{
+    output.push(count);
+}
+    count++;
+
+    console.log(output);
+}
+-------------------------------------------------------------------------
+Script 6
+var customer = ["Angela","Ben","Jennie","Michael","Chloe"];
+var getName = prompt("What is your name?");
+
+if(customer.includes(getName)){
+    alert(getName + " is going to buy lunch today !");
+} else {
+    alert("Sorry , you are not buy lunch today T-T");
+}
+------------------------------------------------------------------------
